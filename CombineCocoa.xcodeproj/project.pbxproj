@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		066579902A76BA8900AA3852 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		"CombineCocoa::CombineCocoa::Product" /* CombineCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CombineCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"CombineCocoa::Runtime::Product" /* Runtime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Runtime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* AnimatedAssignSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAssignSubscriber.swift; sourceTree = "<group>"; };
@@ -77,7 +78,6 @@
 		OBJ_36 /* DelegateProxyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateProxyType.swift; sourceTree = "<group>"; };
 		OBJ_38 /* ObjcDelegateProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcDelegateProxy.m; sourceTree = "<group>"; };
 		OBJ_40 /* ObjcDelegateProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcDelegateProxy.h; sourceTree = "<group>"; };
-		OBJ_41 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/hsncr/Desktop/workspace/CombineCocoa/Sources/Runtime/include/module.modulemap; sourceTree = "<group>"; };
 		OBJ_46 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
 		OBJ_47 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = SOURCE_ROOT; };
 		OBJ_48 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = SOURCE_ROOT; };
@@ -161,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_40 /* ObjcDelegateProxy.h */,
-				OBJ_41 /* module.modulemap */,
+				066579902A76BA8900AA3852 /* module.modulemap */,
 			);
 			path = include;
 			sourceTree = "<group>";
