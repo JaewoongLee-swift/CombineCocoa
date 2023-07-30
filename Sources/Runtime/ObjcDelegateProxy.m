@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "include/ObjcDelegateProxy.h"
-#import <objc/runtime.h>
+#import <objc/Runtime.h>
 
 #define OBJECT_VALUE(object) [NSValue valueWithNonretainedObject:(object)]
 
